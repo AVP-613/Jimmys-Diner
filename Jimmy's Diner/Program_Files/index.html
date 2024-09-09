@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy's Diner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Jimmy's Diner</h1>
+            <p>Ottawa's best burgers and pizzas</p>
+        </div>
+    </header>
+
+    <div id="app"></div>
+
+    <!-- Payment Modal -->
+    <div class="payment-modal hidden" id="payment-modal">
+        <div class="close-modal-btn-container">
+            <button class="modal-close-btn" id="modal-close-btn">&times;</button>
+        </div>
+        <form id="payment-form" class="modal-inner">
+            <h3>Enter card details</h3>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="text" id="card-number" placeholder="Enter card number" required>
+            <input type="text" id="cvv" placeholder="Enter CVV" required>
+            <button type="submit">Pay</button>
+        </form>
+    </div>
+
+    <div id="confirmation-message" class="hidden"></div>
+    <div id="empty-cart-message" class="hidden"></div>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
