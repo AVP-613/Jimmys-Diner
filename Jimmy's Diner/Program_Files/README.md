@@ -1,3 +1,7 @@
+
+## Jimmy's Diner
+Jimmy's Diner is a restaurant ordering app built using HTML, CSS, and JavaScript, with Vite as the build tool. The app features an intuitive user interface for adding/removing items to the order and a modal for handling payment details.
+
 # Getting Started
 Install the dependencies and run the project
 ```
@@ -6,14 +10,15 @@ npm start
 ```
 
 Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Features
+- Add/Remove Items: Users can add and remove items from the order list.
+- Payment Modal: Modal for handling payment details with a close button for easy user interaction.
+- Responsive Design: A responsive layout ensures a seamless device experience.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Project Structure
+The main files and directories include:
 
-Happy Coding!
+- index.html: The main HTML file.
+- src/: Contains all JavaScript, CSS, and other source files.
+- package.json: Lists dependencies and scripts.
